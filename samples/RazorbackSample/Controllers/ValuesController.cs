@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Razorback;
 
-namespace AdaptiveCardRazorSample.Controllers
+namespace RazorbackSample.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
@@ -34,9 +34,14 @@ namespace AdaptiveCardRazorSample.Controllers
             return model;
         }
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         [HttpGet]
         [Route("card")]
-        public async Task<string> GetCard()
+        public async Task<string> Card()
         {
             Person model = CreateModelInstance();
             var card = await this._razorback.BindXmlToObject<Person, AdaptiveCard>("Values/Card", model);
@@ -45,7 +50,8 @@ namespace AdaptiveCardRazorSample.Controllers
         }
 
         [HttpGet]
-        public async Task<string> Get()
+        [Route("text")]
+        public async Task<string> Text()
         {
             Person model = CreateModelInstance();
             return await this._razorback.BindToText<Person>("Values/Text", model);

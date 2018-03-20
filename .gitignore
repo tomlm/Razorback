@@ -9,3 +9,5 @@
 /samples/RazorbackSample/packages
 /src/Razorback/bin/Debug/netstandard2.0
 /src/Razorback/obj
+/packages
+/src/Razorback/bin/Debug

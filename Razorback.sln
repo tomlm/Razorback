@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razorback", "src\Razorback\Razorback.csproj", "{8404CCCC-29B2-459B-94BE-2B20F82A6F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razorback", "src\Razorback\Razorback.csproj", "{8404CCCC-29B2-459B-94BE-2B20F82A6F05}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorbackSample", "samples\RazorbackSample\RazorbackSample.csproj", "{C716C7E0-D565-4910-A2E4-657AC793F9F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorbackSample.AspNetCore", "samples\RazorbackSample\RazorbackSample.AspNetCore.csproj", "{C716C7E0-D565-4910-A2E4-657AC793F9F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
