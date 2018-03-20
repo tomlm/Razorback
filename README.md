@@ -1,4 +1,4 @@
-![https://github.com/tomlm/Razorback/blob/master/clipart0024.jpg](https://github.com/tomlm/Razorback/blob/master/clipart0024.jpg)
+![https://github.com/tomlm/Razorback/blob/master/LargeRazorback.jpg](https://github.com/tomlm/Razorback/blob/master/LargeRazorback.jpg)
 
 # Razorback
 
