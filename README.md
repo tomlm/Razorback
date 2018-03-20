@@ -23,13 +23,13 @@ services.AddScoped<IRazorbackTemplateEngine, RazorbackTemplateEngine>();
 Define a class which will act as a model, like this example:
 ```csharp
 public class Person
-    {
-        public string Name { get; set; }
-        public string First { get; set; }
-        public string Last { get; set; }
-        public DateTime Birthday { get; set; }
+{
+    public string Name { get; set; }
+    public string First { get; set; }
+    public string Last { get; set; }
+    public DateTime Birthday { get; set; }
 
-        public List<KeyValuePair<string, string>> Factoids { get; set; } = new List<KeyValuePair<string, string>>();
+    public List<KeyValuePair<string, string>> Factoids { get; set; } = new List<KeyValuePair<string, string>>();
 }
 ```
 
