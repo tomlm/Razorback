@@ -6,7 +6,7 @@
     <Company />
     <Product />
     <Description>The Razorback library adds support for you to define text or XML templates in using Razor syntax and helper methods which make it easy to bind a model to the template to get an object in memory.</Description>
-    <PackageIconUrl>https://github.com/tomlm/Razorback/blob/master/SmallRazorback.jpg</PackageIconUrl>
+    <PackageIconUrl>https://github.com/tomlm/Razorback/blob/master/TinyRazorback.jpg</PackageIconUrl>
     <PackageProjectUrl>https://github.com/tomlm/Razorback</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/tomlm/Razorback/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright />
