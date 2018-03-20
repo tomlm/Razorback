@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/samples/RazorbackSample/.vs
+/samples/RazorbackSample/bin/Debug/netcoreapp2.0
+/samples/RazorbackSample/obj
+/samples/RazorbackSample/packages
+/src/Razorback/bin/Debug/netstandard2.0
+/src/Razorback/obj

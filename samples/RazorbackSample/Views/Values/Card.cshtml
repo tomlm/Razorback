@@ -1,0 +1,28 @@
+﻿@model AdaptiveCardRazorSample.Person
+@using System.Linq;
+<?xml version="1.0" encoding="utf-16" ?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Version Major="1" Minor="0" />
+    <Container>
+        <TextBlock Size="Medium" Weight="Bolder">Hello world!</TextBlock>
+        <ColumnSet>
+            <Column Width="auto">
+                <Image Size="Small" Style="Person" Url="http://bing.com/foo.png" />
+            </Column>
+            <Column Width="stretch">
+                <TextBlock Weight="Bolder" Wrap="true">@Model.First @Model.Last</TextBlock>
+            </Column>
+        </ColumnSet>
+    </Container>
+    @if (Model.Factoids.Any())
+    {
+        <Container>
+            <FactSet>
+                @foreach (var factoid in Model.Factoids)
+                {
+                    <Fact Title="@factoid.Key" Value="@factoid.Value" />
+                }
+            </FactSet>
+        </Container>
+    }
+</Card>
