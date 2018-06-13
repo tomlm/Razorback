@@ -117,3 +117,22 @@ var card = await this._razorback.BindXmlToObject<Person, AdaptiveCard>("Values/C
 ```
 
 
+# Troubleshooting MVC
+Razorback has a dependency on MVC.  If you don't have MVC installed you can add it.
+```
+dotnet add package Microsoft.AspNetCore.Mvc 
+```
+And add MVC to startup.cs
+```csharp
+ public class Startup
+    {
+        public void ConfigureServices(IServiceCollection services){
+            services.AddMvc();
+        }
+
+        public void Configure(IApplicationBuilder app)
+        {
+            app.UseMvc();
+        }
+    }
+```
